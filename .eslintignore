@@ -1,0 +1,16 @@
+# 忽略目录
+node_modules/
+build/
+dist/
+public/
+src/assets/
+examples/
+scripts/
+packages/**/docs-**
+packages/interface-**
+
+# 忽略文件
+**/*.min.js
+**/*-min.js
+**/*.bundle.js
+RESTFULURL.js
