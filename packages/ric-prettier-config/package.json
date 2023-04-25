@@ -1,0 +1,22 @@
+{
+  "name": "@ric-universe/ric-prettier-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.json",
+  "files": [
+    "index.json"
+  ],
+  "scripts": {
+    "release": "bumpp --commit --push --tag && npm publish"
+  },
+  "devDependencies": {
+    "bumpp": "^7.1.1"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
